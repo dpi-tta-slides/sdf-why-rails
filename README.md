@@ -8,4 +8,5 @@ This lesson reviews the [Rails doctrine](https://rubyonrails.org/doctrine)
 - History
 - Programmer Happiness
 - Convention over Configuration
+- Don't repeat yourself (DRY)
 - Play the whole game
