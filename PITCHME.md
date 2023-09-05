@@ -42,7 +42,7 @@ In general, we will stand on the shoulders of giants.
 
 ---
 
-# Play the whole game
+# Play the whole game (integrated systems)
 - The crucial piece in finally making programming “click” is learning all the skills needed to deploy an application, not just one or two. I.e., we become full-stack developers.
 - Most courses or books teach you one language or skill, but then you’re left wondering how that fits in with the 99 other things you need to know in order to deploy an application.
 - Making a real, functional application is motivating! It gives you a reason to continue learning — to improve it, and to make the next one.
@@ -70,9 +70,16 @@ Use exit() or Ctrl-D (i.e. EOF) to exit
 
 # Convention over configuration
 
+- decrease the number of decisions that a developer is required to make without losing flexibility
+
+
 <!-- foreign key example -->
 Who cares what format your database primary keys are described by? Does it really matter whether it’s “id”, “postId”, “posts_id”, or “pid”? Is this a decision that’s worthy of recurrent deliberation? No.
 
 <!-- TODO: routing example -->
 
 
+
+
+<!-- model example / folder structure -->
+when you have a User model in your application, then Rails assumes that it is defined in the file at app/models/user.rb. If that is the case then you do not need to require that file before using and Rails' autoloading feature will be able to do that for you. And Rails will assume that the user records will be stored in a database table named users. If that is the case, no additional configuration will be needed and Rails will be able to load these records. But if the records are stored in a different table, then you will have to explicitly tell Rails the new table name.
