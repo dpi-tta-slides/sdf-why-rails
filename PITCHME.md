@@ -183,3 +183,5 @@ Why Ruby
 - Many of the reasons are outlined in the "controversial" [Rails doctrine](https://rubyonrails.org/doctrine)
 
 - https://rubyonrails.org/doctrine
+
+<!-- Sign up for newsletters to stay updated -->
