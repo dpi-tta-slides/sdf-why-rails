@@ -38,7 +38,9 @@ _paginate: false
 ---
 # History
 - In 2003, a Chicago entrepreneur (Jason Fried) hired a Danish programmer (David Heinemeier Hansson) to build an idea he had for project management SaaS: **Basecamp**.
-- David loved an obscure programming language called **Ruby**, which was invented in Japan in the mid 1990’s. Ruby was slow, but expressive and “beautiful” (to David). Jason didn’t really care what David used, so 👍
+- David loved an obscure programming language called **Ruby**, which was invented in Japan in the mid 1990’s. Ruby was slow, but expressive and “beautiful” (to David).
+
+![bg contain right 50%](./assets/ruby-logo.png)
 
 ---
 # History
@@ -52,6 +54,8 @@ _paginate: false
 - Much like **Twitter**, **Airbnb**, **NYTimes**, **GitHub**, **Shopify** and thousands of other companies, we’re borrowing David’s (and, by now, thousands of other contributors’) code.
 - This lets us skip re-inventing tens of thousands of lines of code and many years of learning.
 - We stand on the shoulders of giants.
+
+![bg contain right](./assets/giant.jpg)
 
 ---
 
@@ -67,17 +71,29 @@ _paginate: false
 ---
 
 # Play the whole game
-- The crucial piece in finally making programming “click” is learning all the skills needed to deploy an application, not just one or two pieces.
-  - I.e., we become full-stack developers.
+- The crucial piece in finally making programming “click” is learning all the skills needed to deploy an application, not just one or two pieces. (**full-stack**)
 - Most courses or books teach you one language or skill, but then you’re left wondering how that fits in with the 99 other things you need to know in order to deploy an application.
 - Making a real, functional application is motivating! It gives you a reason to continue learning — to improve it, and to make the next one.
 
 ---
 # Play the whole game
 
-- Majestic monoliths!
-    - A whole system that addresses an entire problem.
+- We call these full-stack applications "monoliths"
+  - A whole system that addresses an entire problem.
 - This means Rails is concerned with everything from the front-end JavaScript needed to make live updates to how the database is migrated from one version to another in production.
+
+![bg contain right](./assets/restaurant.webp)
+
+---
+
+![](./assets/t-shaped-skills.webp)
+
+<!--
+- We want to expose you to the full software development lifecycle
+
+- That way you can come to an educated decision when deciding on a specific marketable skill to go deep on
+
+-->
 
 ---
 
@@ -132,6 +148,35 @@ Use exit() or Ctrl-D (i.e. EOF) to exit
 <!-- to accommodate the programmer’s obvious desire to quit its interactive console. -->
 - Python pedantically instructs the programmer how to properly do what’s requested
 <!-- even though it obviously knows what is meant since it’s displaying the error message -->
+
+---
+# Programmer Happiness
+
+## Error Messages
+
+- Ruby's error messages are typically clear and instructive.
+- Remember to read the error messages! 
+
+```bash
+birthday_cake.rb:62:in `celebrate': undefined method `sign' for #<BirthdayCake:0x00000001034b9660 @age=10, @lit=false> (NoMethodError)
+
+    puts birthday_cake.sign
+                      ^^^^^
+Did you mean?  sing
+        from birthday_cake.rb:71:in `<main>'
+```
+
+<!-- 
+Why Ruby
+- Elegance and Readability
+- Everything is an Object
+- Interactive Shell (IRB)
+- Strong Community and Resources
+- Mature Frameworks
+- Expressiveness
+- Error Messages
+- Garbage Collection
+-->
 
 ---
 # Rails Doctrine
