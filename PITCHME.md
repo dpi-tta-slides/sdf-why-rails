@@ -185,3 +185,7 @@ Why Ruby
 - https://rubyonrails.org/doctrine
 
 <!-- Sign up for newsletters to stay updated -->
+
+---
+
+# Questions?
