@@ -1,6 +1,6 @@
 ---
 marp: true
-title: SDF Why Rails?
+title: SDF Why Ruby/Rails?
 description: This lesson reviews the Rails doctrine
 # theme: uncover
 transition: fade
@@ -188,6 +188,38 @@ Why Ruby
 
 ---
 
+can you write a hello world program in Java and Ruby for comparison?
+ChatGPT
+Of course! Here’s a simple “Hello, World!” program in both Java and Ruby for comparison.
+Java:
+```java
+public class HelloWorld { 
+  public static void main(String[] args) {      
+    System.out.println("Hello, World!"); 
+  } 
+}
+```
+To execute the Java program:
+Save the code to a file named
+HelloWorld.java.
+Compile it with the command: javac HelloWorld.java.
+Run it with the command: java HelloWorld.
+Ruby:
+```ruby
+puts "Hello, World!" 
+```
+To execute the Ruby program:
+Save the code to a file named hello_world.rb.
+Run it with the command: ruby hello_world.rb.
+As you can see, the Ruby version is much shorter due to its scripting nature and high level of abstraction. Java, on the other hand, requires a class definition and a main method to execute, which is typical for statically-typed, object-oriented languages. (edited) 
+
+
+```python
+print("Hello, World!")
+```
+
+
+---
 # Questions?
 
 
