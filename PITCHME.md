@@ -188,6 +188,8 @@ Why Ruby
 
 ---
 
+<!-- Simple expressive syntax -->
+
 can you write a hello world program in Java and Ruby for comparison?
 ChatGPT
 Of course! Here’s a simple “Hello, World!” program in both Java and Ruby for comparison.
@@ -244,3 +246,14 @@ Here’s DHH himself on the topic: [What makes Rails a framework worth learning 
 
 
  -->
+
+
+
+ <!-- 
+  MVC Pattern
+  -->
+
+
+<!-- 
+  Everything is an object
+  -->
