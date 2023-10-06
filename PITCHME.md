@@ -66,6 +66,7 @@ _paginate: false
     - Optimize for programmer happiness
     - Convention over configuration
     - Integrated systems (full-stack)
+    - one person framework
     - and more!
 
 ---
@@ -257,3 +258,13 @@ Here’s DHH himself on the topic: [What makes Rails a framework worth learning 
 <!-- 
   Everything is an object
   -->
+
+
+<!-- 
+one person framework
+
+https://world.hey.com/dhh/the-one-person-framework-711e6318
+
+https://twitter.com/cantoniodasilva/status/1709857329267478913
+
+ -->
