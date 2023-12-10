@@ -191,10 +191,9 @@ Why Ruby
 
 <!-- Simple expressive syntax -->
 
-can you write a hello world program in Java and Ruby for comparison?
-ChatGPT
-Of course! Here’s a simple “Hello, World!” program in both Java and Ruby for comparison.
-Java:
+
+# Java
+
 ```java
 public class HelloWorld { 
   public static void main(String[] args) {      
@@ -202,24 +201,26 @@ public class HelloWorld {
   } 
 }
 ```
+
 To execute the Java program:
-Save the code to a file named
-HelloWorld.java.
-Compile it with the command: javac HelloWorld.java.
-Run it with the command: java HelloWorld.
-Ruby:
+1. Save the code to a file named `HelloWorld.java`.
+2. Compile it with the command: `javac HelloWorld.java`.
+3. Run it with the command: `java HelloWorld`.
+
+---
+
+# Ruby
+
 ```ruby
 puts "Hello, World!" 
 ```
+
 To execute the Ruby program:
-Save the code to a file named hello_world.rb.
-Run it with the command: ruby hello_world.rb.
-As you can see, the Ruby version is much shorter due to its scripting nature and high level of abstraction. Java, on the other hand, requires a class definition and a main method to execute, which is typical for statically-typed, object-oriented languages. (edited) 
+1. Save the code to a file named `hello_world.rb`.
+2. Run it with the command: `ruby hello_world.rb`.
 
-
-```python
-print("Hello, World!")
-```
+   
+- As you can see, the Ruby version is much shorter due to its scripting nature and high level of abstraction. Java, on the other hand, requires a class definition and a main method to execute, which is typical for statically-typed, object-oriented languages. (edited) 
 
 
 ---
