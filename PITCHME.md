@@ -257,7 +257,58 @@ Here’s DHH himself on the topic: [What makes Rails a framework worth learning 
 
 
 <!-- 
-  Everything is an object
+  # Everything is an object
+
+  ## Pure Object-Oriented Nature:
+  
+  Ruby is a pure object-oriented language. Everything in Ruby is an object, including primitive data types like integers, which makes it easier to understand and apply OOP concepts. This contrasts with Python and Java, where some elements are not objects (e.g., Python's basic data types).
+
+
+  ## Simplicity and Readability:
+  
+  Ruby's syntax is straightforward and readable, which makes it easier for beginners to grasp. The syntax is designed to be intuitive, often reading like English, which reduces the learning curve for understanding OOP concepts.
+
+  ## Setters / Getters
+
+Python requires more code to achieve the same functionality but provides more control and encapsulation. The use of property decorators in Python is a more pythonic way of handling getters and setters and can include additional logic if needed.
+  ```python
+  class Person:
+    def __init__(self, name, age):
+        self._name = name
+        self._age = age
+
+    @property
+    def name(self):
+        return self._name
+
+    @name.setter
+    def name(self, value):
+        self._name = value
+
+    # Similar for age
+
+  person = Person("Alice", 30)
+  person.name = "Bob"
+  print(person.name)  # Output: Bob
+  ```
+
+Ruby is more concise for defining setters and getters. The attr_accessor method automatically creates both getter and setter methods.
+  ```ruby
+  class Person
+    attr_accessor :name, :age
+
+    def initialize(name, age)
+      @name = name
+      @age = age
+    end
+  end
+
+  person = Person.new("Alice", 30)
+  person.name = "Bob"
+  puts person.name  
+
+  
+  ```
   -->
 
 
