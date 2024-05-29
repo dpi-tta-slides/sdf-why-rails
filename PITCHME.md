@@ -17,74 +17,81 @@ _paginate: false
 
 ![bg contain right](./assets/evolution.png)
 
-- Did you know the DNA of humans and chimpanzees is ~98% the same?
 <!-- Most of our DNA is the plumbing of being alive, being primates, etc. -->
-- Only a *tiny* bit makes us distinct from chimpanzees.
-- We have exactly the same 98% since we descended from a common ancestor, approximately 6-10 million years ago.
+- Human and chimpanzee DNA is ~98% the same.
+- Only a small bit makes us distinct.
+- We share this DNA because of a common ancestor from 6-10 million years ago.
 
 ---
 # Ancestry
 
-- Similarly, parts of **X**, **Shopify**, **GitHub**, **Airbnb**, and more share 98% of their code.
-- Most SaaS applications have same core code:
-    - web server
-    - connecting to the database
-    - rendering html
-    - etc.
-- Only a relatively small amount makes them distinct
+- Parts of **X**, **Shopify**, **GitHub**, **Airbnb**, and more share 98% of their code.
+- Most SaaS applications have the same core code:
+  - web server
+  - connecting to the database
+  - rendering HTML
+  - etc.
+- Only a small amount makes them distinct.
 <!-- tweets instead of listings, etc. -->
 <!-- **Twitter** and **Airbnb** have exactly the same core code, since they share a common ancestor. -->
 
 ---
 # History
-- In 2003, a Chicago entrepreneur (Jason Fried) hired a programmer (David Heinemeier Hansson) to build an idea he had for project management SaaS: **Basecamp**.
-- David loved an obscure programming language called **Ruby**
-  <!-- which was invented in Japan in the mid 1990’s. -->
-- Ruby was notable for its elegant and readable syntax, which emphasizes developer happiness and productivity.
+
+- In 2003, Jason Fried hired David Heinemeier Hansson to build **Basecamp**.
+<!--
+  - Ruby was relatively obscure at teh time
+  - invented in Japan in the mid 1990’s
+  - computers were slow
+-->
+- David chose to use Ruby for its elegant and readable syntax, which emphasizes developer happiness and productivity.
 
 ![bg contain right 50%](./assets/ruby-logo.png)
 
 ---
 # History
-- Once he got Basecamp working, David extracted the 98% of it that was common plumbing for all SaaS and released it for free, open-source.
-- He called this package of Ruby code that let you quickly get a web application up and running...**Ruby on Rails**.
-- It was, at the time, revolutionary.
+
+- David extracted the common plumbing from Basecamp and released it free and open-source as **Ruby on Rails**.
+- It was revolutionary for web application development.
 
 ---
 # Our hack
 
-- We’re borrowing David’s (and, by now, thousands of other contributors’) code.
-  - Much like **Airbnb**, **NYTimes**, **GitHub**, **Shopify** and thousands of other companies...
-- This lets us skip re-inventing tens of thousands of lines of code and many years of learning.
-- We stand on the shoulders of giants.
+- We’re using code from David and thousands of contributors.
+- This lets us skip re-inventing code and stand on the shoulders of giants.
 
 ![bg contain right](./assets/giant.jpg)
 
 ---
 
 # Why Rails?
-- Often asked why are we learning Ruby on Rails when there are countless options.
-<!-- we haven't even placed anyone in a ruby/rails role yet -->
 
-    - Optimize for programmer happiness
-    - Convention over configuration
-    - Integrated systems (full-stack)
-    - one person framework
-    - and more!
+- Why learn Ruby on Rails?
+  - Optimizes for programmer happiness
+  - Convention over configuration
+  - Integrated system (full-stack)
+  - One person framework
+  - Model-View-Controller (MVC)
+  - Elegance and Readability
+  - Everything is an Object
+  - Interactive Shell (IRB / console)
+  - Strong Community and Resources
+  - Mature Framework
+  - And more!
 
 ---
 
 # Play the whole game
-- The crucial piece in finally making programming “click” is learning all the skills needed to deploy an application, not just one or two pieces. (**full-stack**)
-- Most courses or books teach you one language or skill, but then you’re left wondering how that fits in with the 99 other things you need to know in order to deploy an application.
-- Making a real, functional application is motivating! It gives you a reason to continue learning — to improve it, and to make the next one.
+
+- Learning all the skills needed to deploy an application is crucial (full-stack).
+- Most courses teach one language or skill, leaving gaps in knowledge.
+- Building a real application is motivating and encourages further learning.
 
 ---
 # Play the whole game
 
-- We call these full-stack applications "monoliths"
-  - A whole system that addresses an entire problem.
-- This means Rails is concerned with everything from the front-end JavaScript needed to make live updates to how the database is migrated from one version to another in production.
+- We call these full-stack applications "monoliths."
+- Rails handles everything from front-end JavaScript to database migrations.
 
 ![bg contain right](./assets/restaurant.webp)
 
@@ -93,27 +100,24 @@ _paginate: false
 ![](./assets/t-shaped-skills.webp)
 
 <!--
-- We want to expose you to the full software development lifecycle
-
-- That way you can come to an educated decision when deciding on a specific marketable skill to go deep on
-
+- Exposure to the full software development lifecycle.
+- Helps make an educated decision on specific marketable skills.
 -->
 
 ---
 
 # Convention over configuration
 
-- Decrease the number of decisions that a developer is required to make without losing flexibility
-- As a beginner, this frees up mental "RAM" to focus on solving a problem.
+- Reduces the number of decisions developers need to make.
+- Frees up mental "RAM" to focus on solving problems.
 
 ---
 # Convention over configuration
 
 <!-- foreign key example -->
-- We learned about database "primary keys"
-- Does it matter the format your database primary keys are described by?
-- Does it really matter whether it’s “id”, “postId”, “posts_id”, or “pid”?
-- As long as we agree to consistently use 1 format, this is not a decision that’s worthy of recurrent deliberation.
+- Database primary keys:
+  - "id", "postId", "posts_id", or "pid" — as long as it's consistent, it doesn't matter.
+
 
 --- 
 
@@ -170,30 +174,13 @@ Did you mean?  sing
         from birthday_cake.rb:71:in `<main>'
 ```
 
-<!-- 
-Why Ruby
-- Elegance and Readability
-- Everything is an Object
-- Interactive Shell (IRB)
-- Strong Community and Resources
-- Mature Frameworks
-- Expressiveness
-- Error Messages
-- Garbage Collection
--->
-
 ---
 # Rails Doctrine
-- Many of the reasons are outlined in the "controversial" [Rails doctrine](https://rubyonrails.org/doctrine)
 
+- Many of the reasons are outlined in the "controversial" [Rails doctrine](https://rubyonrails.org/doctrine)
 - https://rubyonrails.org/doctrine
 
-<!-- Sign up for newsletters to stay updated -->
-
 ---
-
-<!-- Simple expressive syntax -->
-
 
 # Java
 
@@ -223,8 +210,10 @@ To execute the Ruby program:
 2. Run it with the command: `ruby hello_world.rb`.
 
    
-- As you can see, the Ruby version is much shorter due to its scripting nature and high level of abstraction. Java, on the other hand, requires a class definition and a main method to execute, which is typical for statically-typed, object-oriented languages. (edited) 
-
+<!--
+- The Ruby version is much shorter due to its scripting nature and high level of abstraction.
+- Java, on the other hand, requires a class definition and a main method to execute, which is typical for statically-typed, object-oriented languages.
+-->
 
 ---
 # Questions?
