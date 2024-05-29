@@ -25,20 +25,22 @@ _paginate: false
 ---
 # Ancestry
 
-- Similarly, **Twitter** and **Airbnb** share 98% of their code.
+- Similarly, parts of **X**, **Shopify**, **GitHub**, **Airbnb**, and more share 98% of their code.
 - Most SaaS applications have same core code:
     - web server
     - connecting to the database
     - rendering html
     - etc.
-- Only a <small>tiny</small> bit makes them distinct
+- Only a relatively small amount makes them distinct
 <!-- tweets instead of listings, etc. -->
-- **Twitter** and **Airbnb** have exactly the same core code, since they share a common ancestor.
+<!-- **Twitter** and **Airbnb** have exactly the same core code, since they share a common ancestor. -->
 
 ---
 # History
-- In 2003, a Chicago entrepreneur (Jason Fried) hired a Danish programmer (David Heinemeier Hansson) to build an idea he had for project management SaaS: **Basecamp**.
-- David loved an obscure programming language called **Ruby**, which was invented in Japan in the mid 1990’s. Ruby was slow, but expressive and “beautiful” (to David).
+- In 2003, a Chicago entrepreneur (Jason Fried) hired a programmer (David Heinemeier Hansson) to build an idea he had for project management SaaS: **Basecamp**.
+- David loved an obscure programming language called **Ruby**
+  <!-- which was invented in Japan in the mid 1990’s. -->
+- Ruby was notable for its elegant and readable syntax, which emphasizes developer happiness and productivity.
 
 ![bg contain right 50%](./assets/ruby-logo.png)
 
@@ -51,7 +53,8 @@ _paginate: false
 ---
 # Our hack
 
-- Much like **Twitter**, **Airbnb**, **NYTimes**, **GitHub**, **Shopify** and thousands of other companies, we’re borrowing David’s (and, by now, thousands of other contributors’) code.
+- We’re borrowing David’s (and, by now, thousands of other contributors’) code.
+  - Much like **Airbnb**, **NYTimes**, **GitHub**, **Shopify** and thousands of other companies...
 - This lets us skip re-inventing tens of thousands of lines of code and many years of learning.
 - We stand on the shoulders of giants.
 
@@ -107,7 +110,7 @@ _paginate: false
 # Convention over configuration
 
 <!-- foreign key example -->
-- We just learned about database "primary keys"
+- We learned about database "primary keys"
 - Does it matter the format your database primary keys are described by?
 - Does it really matter whether it’s “id”, “postId”, “posts_id”, or “pid”?
 - As long as we agree to consistently use 1 format, this is not a decision that’s worthy of recurrent deliberation.
