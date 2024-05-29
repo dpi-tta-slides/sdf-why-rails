@@ -83,14 +83,14 @@ _paginate: false
 
 # Play the whole game
 
-- Learning all the skills needed to deploy an application is crucial (full-stack).
+- Learning all the skills needed to deploy an application is crucial (**full-stack**).
 - Most courses teach one language or skill, leaving gaps in knowledge.
 - Building a real application is motivating and encourages further learning.
 
 ---
 # Play the whole game
 
-- We call these full-stack applications "monoliths."
+- We call these full-stack applications "**monoliths**."
 - Rails handles everything from front-end JavaScript to database migrations.
 
 ![bg contain right](./assets/restaurant.webp)
@@ -183,12 +183,6 @@ Did you mean?  sing
 ```
 
 ---
-# Rails Doctrine
-
-- Many of the reasons are outlined in the "controversial" [Rails doctrine](https://rubyonrails.org/doctrine)
-- https://rubyonrails.org/doctrine
-
----
 
 # Java
 
@@ -222,6 +216,12 @@ To execute the Ruby program:
 - The Ruby version is much shorter due to its scripting nature and high level of abstraction.
 - Java, on the other hand, requires a class definition and a main method to execute, which is typical for statically-typed, object-oriented languages.
 -->
+
+---
+# Rails Doctrine
+
+- Many of the reasons are outlined in the "controversial" [Rails doctrine](https://rubyonrails.org/doctrine)
+- https://rubyonrails.org/doctrine
 
 ---
 # Questions?
