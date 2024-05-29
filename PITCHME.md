@@ -73,7 +73,7 @@ _paginate: false
   - One person framework
   - Model-View-Controller (MVC)
   - Elegance and Readability
-  - Everything is an Object
+  - Everything is an Object (object oriented programming)
   - Interactive Shell (IRB / console)
   - Strong Community and Resources
   - Mature Framework
@@ -135,6 +135,14 @@ class PagesController
   end
 end
 ```
+
+---
+
+# One Person Framework
+
+- Rails allows a single developer to build and deploy a complete application.
+- ["AI will make it possible for one person to build a billion dollar company very soon" per Sam Altman](https://x.com/andrewmichaelio/status/1752909423826067776?s=46)
+- [source](https://world.hey.com/dhh/the-one-person-framework-711e6318)
 
 ---
 
@@ -242,12 +250,6 @@ Here’s DHH himself on the topic: [What makes Rails a framework worth learning 
  -->
 
 
-
- <!-- 
-  MVC Pattern
-  -->
-
-
 <!-- 
   # Everything is an object
 
@@ -302,13 +304,3 @@ Ruby is more concise for defining setters and getters. The attr_accessor method 
   
   ```
   -->
-
-
-<!-- 
-one person framework
-
-https://world.hey.com/dhh/the-one-person-framework-711e6318
-
-https://twitter.com/cantoniodasilva/status/1709857329267478913
-
- -->
