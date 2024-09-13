@@ -226,7 +226,12 @@ To execute the Ruby program:
 ---
 # Questions?
 
+---
+# References
 
+- [Ruby on Rails: The Documentary](https://youtube.com/watch?v=HDKUEXBF3B4)
+- [Rails is Omakase](https://dhh.dk/2012/rails-is-omakase.html)
+- [Rails doctrine](https://rubyonrails.org/doctrine)
 
 <!-- 
 TODO:
