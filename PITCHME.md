@@ -144,9 +144,11 @@ end
 
 # One Person Framework
 
-- Rails allows a single developer to build and deploy a complete application.
-> ["AI will make it possible for one person to build a billion dollar company very soon" per Sam Altman](https://x.com/andrewmichaelio/status/1752909423826067776?s=46)
-> [source](https://world.hey.com/dhh/the-one-person-framework-711e6318)
+- [Rails allows a single developer to build and deploy a complete application.](https://world.hey.com/dhh/the-one-person-framework-711e6318)
+
+> "AI will make it possible for one person to build a billion dollar company very soon"
+>
+> [Sam Altman, founder of OpenAI](https://x.com/andrewmichaelio/status/1752909423826067776?s=46)
 
 ---
 
