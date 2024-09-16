@@ -36,6 +36,10 @@ _paginate: false
 <!-- **Twitter** and **Airbnb** have exactly the same core code, since they share a common ancestor. -->
 
 ---
+
+![](assets/rails-logos.png)
+
+---
 # History
 
 - In 2003, Jason Fried hired David Heinemeier Hansson to build **Basecamp**.
