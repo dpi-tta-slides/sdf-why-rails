@@ -224,6 +224,13 @@ To execute the Ruby program:
 - https://rubyonrails.org/doctrine
 
 ---
+# Setup for Career Success
+
+- Reduce friction, increase learning velocity
+- Play the whole game
+- Develop taste/feel for building
+
+---
 # Questions?
 
 ---
