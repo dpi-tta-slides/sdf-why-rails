@@ -113,7 +113,7 @@ _paginate: false
 # Convention over configuration
 
 - Reduces the number of decisions developers need to make.
-- Frees up mental "RAM" to focus on solving problems.
+- Frees up mental "RAM" to focus on solving business problems.
 
 ---
 # Convention over configuration
