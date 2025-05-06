@@ -2,7 +2,7 @@
 This lesson reviews the [Rails doctrine](https://rubyonrails.org/doctrine)
 
 
-[slides](https://dpi-we.github.io/slides-sdf-why-rails)
+[slides](https://dpi-tta-slides.github.io/sdf-why-rails)
 
 ## Highlights
 - History
